@@ -1,0 +1,154 @@
+body {
+    background-color: #FDF9EB;
+    font-family: "Fenwick" , sans-serif ;
+}
+
+.Section-container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.Font-panel {
+    width: 45%;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.Font-label p {}
+
+.Fenwick {
+    font-family: "fenwick", sans-serif;
+
+}
+
+.Roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.Merriweather {
+    font-family: "Merriweather", sans-serif;
+}
+
+.Poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.Courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Source-code-pro {
+    font-family: "Source Code Pro", monospace;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.Color-container {
+    display: block;
+}
+
+.Color-panel {
+    display: flex;
+    height: 6.5rem;
+    border: 10px solid #e6e6e6;
+    margin-bottom: 1.25rem;
+}
+
+.Color-panel:last-child {
+    margin-bottom: 0;
+}
+
+.Color-panel>div {
+    flex-grow: 1;
+    border-right: 10px solid #e6e6e6;
+}
+
+.Color-panel>div:last-child {
+    border-right: 0;
+}
+
+.Color-panel div p {
+    font-family: "Fenwick";
+    text-align: center;
+}
+
+/*Color block 1*/
+.Combination-1 .Color-1 {
+    background-color: #174C4F;
+}
+
+.Combination-1 .Color-2 {
+    background-color: #BDA2AE;
+}
+
+.Combination-1 .Color-3 {
+    background-color: #FFE184;
+}
+
+.Combination-1 .Color-4 {
+    background-color: #FDF9EB;
+}
+
+/*Color block 2*/
+.Combination-2 .Color-1 {
+    background-color: #2D4778;
+}
+
+.Combination-2 .Color-2 {
+    background-color: #637BA9;
+}
+
+.Combination-2 .Color-3 {
+    background-color: #858C4D;
+}
+
+.Combination-2 .Color-4 {
+    background-color: #EFE8CC;
+}
+
+/*Color Block 3*/
+.Combination-3 .Color-1 {
+    background-color: #D381AF;
+}
+
+.Combination-3 .Color-2 {
+    background-color: #B3C7E0;
+}
+
+.Combination-3 .Color-3 {
+    background-color: #3CAF74;
+}
+
+.Combination-3 .Color-4 {
+    background-color: #EF8110;
+}
+
+/*Color Block 4*/
+.Combination-4 .Color-1 {
+    background-color: #8C0303;
+}
+
+.Combination-4 .Color-2 {
+    background-color: #F20505;
+}
+
+.Combination-4 .Color-3 {
+    background-color: #F28705;
+}
+
+.Combination-4 .Color-4 {
+    background-color: #F29F05;
+}
