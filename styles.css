@@ -1,6 +1,6 @@
 body {
-    background-color: #FDF9EB;
-    font-family: "Fenwick" , sans-serif ;
+    background-image: linear-gradient(to bottom right, #174C4F, #BDA2AE, #FFE184, #FDF9EB);
+    font-family: "Fenwick", sans-serif;
 }
 
 .Section-container {
@@ -9,15 +9,27 @@ body {
     margin: 10px auto;
 }
 
+.Font-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+}
+
 .Font-panel {
-    width: 45%;
-    display: inline-block;
-    margin: 10px auto;
     padding: 5px;
     background-color: aqua;
 }
 
-.Font-label p {}
+.Font-lable {
+    font-size: large;
+}
+
+.Font-panel p span {
+    text-decoration: underline;
+
+}
+
 
 .Fenwick {
     font-family: "fenwick", sans-serif;
@@ -55,6 +67,30 @@ body {
 .bold {
     font-weight: 700;
 }
+
+.Text-panel {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.Text-panel .Text-list {
+    list-style-type: none;
+}
+
+
 
 .Color-container {
     display: block;
