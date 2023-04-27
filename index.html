@@ -16,44 +16,25 @@
 
 <body>
     <header>
-        <img src="" alt="Logo">
-        <h1>Website Style Guide</h1>
+        <!-- <img src="" alt="Logo"> -->
+        <nav>
+            <ul>
+                <li><a href="#Topography">Typography</a>
+                </li>
+                <li><a href="#Color">Color and Backgrounds</a>
+                </li>
+                <li><a href="#Cards">Cards-Buttons</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Typography</a>
-                <ul>
-                    <li><a href="#">Font-family</a></li>
-                    <li><a href="#">Text-align</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Color and Backgrounds</a>
-                <ul>
-                    <li><a href="#">Color</a></li>
-                    <li><a href="#">Background</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Effects</a>
-                <ul>
-                    <li><a href="#">Box-shadow</a></li>
-                    <li><a href="#">Text-shadow</a></li>
-                    <li><a href="#">Transform</a></li>
-                    <li><a href="#">Transition</a></li>
-                    <li><a href="#">Animation</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Miscellaneous</a>
-                <ul>
-                    <li><a href="#">Cursor</a></li>
-                    <li><a href="#">Visibility</a></li>
-                    <li><a href="#">Overflow</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
     <main>
-        <section class="Section-container">
+        <section class="Title-container">
+            <h1 class="title">Website Style Guide</h1>
+        </section>
+        <section class="Section-container" id="Topography">
             <h2>Typography</h2>
+            <h3>Fonts</h3>
             <div class="Font-container">
                 <div class="Font-panel">
                     <p class="Font-lable Fenwick">Fenwick </p>
@@ -110,6 +91,7 @@
                         dog.</p>
                 </div>
             </div>
+            <h3>Text-aglinment</h3>
             <div class="Text-container">
                 <div class="Text-panel left">
                     <h1>H1: Main page heading</h1>
@@ -137,7 +119,7 @@
                 </div>
             </div>
         </section>
-        <section class="Section-container">
+        <section class="Section-container" id="Color">
             <h2>Color-Background</h2>
             <div class="Color-container">
                 <h4>Color Combination 1</h4>
@@ -216,6 +198,39 @@
                         <p class="Color-hex">#F29F05</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="Section-container" id="Cards">
+            <h2>Cards and Buttons</h2>
+
+            <div class="Card-container">
+                <h3>Cards</h3>
+                <div class="Card small">
+                    <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2020/03/sale_25313_primary_image_wide.jpg"
+                        alt="Small Image" />
+                    <h3>Small Card</h3>
+                    <p>Minimal information</p>
+                </div>
+
+                <div class="Card medium">
+                    <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2020/03/sale_25313_primary_image_wide.jpg"
+                        alt="Medium Image" />
+                    <h3>Medium Card</h3>
+                    <p>Minimal information</p>
+                </div>
+
+                <div class="Card large">
+                    <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2020/03/sale_25313_primary_image_wide.jpg"
+                        alt="Large Image" />
+                    <h3>Large Card</h3>
+                    <p>More detailed information</p>
+                </div>
+            </div>
+            <div class="Button-container">
+                <h3>Buttons</h3>
+                <div class="Btn-unactive">This is a button</div>
+                <div class="Btn-hover">Hover over this button</div>
+                <div class="Btn-active">Click on this button</div>
             </div>
         </section>
     </main>
